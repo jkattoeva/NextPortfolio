@@ -11,6 +11,7 @@ export default function Header() {
     { path: "/about", title: "About" },
     { path: "/", title: "Home" },
   ];
+
   return (
     <>
       <div className={cls.navigation}>

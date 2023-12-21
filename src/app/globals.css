@@ -14,5 +14,19 @@ body {
 }
 
 body {
-  background-color: red;
+  background-image: linear-gradient(
+    to left top,
+    #947784,
+    #78626d,
+    #5e4d57,
+    #453a41,
+    #2e272c,
+    #251f22,
+    #1b1718,
+    #110d0e,
+    #100c0c,
+    #0e0b0a,
+    #0c0a09,
+    #0a0908
+  );
 }
