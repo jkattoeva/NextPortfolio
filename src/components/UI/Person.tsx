@@ -5,7 +5,13 @@ import cls from "@/styles/Person.module.scss";
 export default function Person() {
   return (
     <div className={cls.person}>
-      <Image src={icon} alt="icon" width={5000} height={100} />
+      <Image
+        className={cls.image}
+        src={icon}
+        alt="icon"
+        width={3000}
+        height={100}
+      />
 
       <div className={cls.text}>
         <p>
