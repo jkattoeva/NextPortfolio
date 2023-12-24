@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import RootLayoutClient from "./layout.uc";
 import "./globals.css";
-import Header from "@/components/header/Header";
 
 interface Props {
   children: React.ReactNode;
