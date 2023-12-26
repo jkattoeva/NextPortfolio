@@ -10,13 +10,12 @@ html,
 body {
   width: 100vw;
   min-height: 100vh;
-  min-width: 350px;
+
+  background: url("../assets/exampl.jpg") center/cover;
 }
 
 body {
   overflow-x: hidden;
 
-  background-image: url(../assets/bg.svg);
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.648);
+  color: white;
 }
