@@ -1,10 +1,29 @@
 .person {
   width: 100%;
+  max-width: 900px;
 
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
+
+  padding-left: 5rem;
+  border-radius: 5rem;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 10px 42px 0 rgba(171, 165, 165, 0.37);
+
+  .desc {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 
   .image {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
