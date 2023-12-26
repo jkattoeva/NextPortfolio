@@ -6,7 +6,7 @@ export default function Person() {
   return (
     <div className={cls.person}>
       <div className={cls.desc}>
-        <h1>Hello , I'm Janet Saral</h1>
+        <h1>Hello , Im Janet Saral</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi laborum
           tempore reiciendis veritatis qui enim soluta, voluptatum ipsam error
