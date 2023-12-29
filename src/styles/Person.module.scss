@@ -25,7 +25,19 @@
     gap: 2rem;
 
     padding: 2rem;
-    background-color: rgba(12, 71, 94, 0.644);
+    color: black;
+
+    .name {
+      background: #ad1328;
+      background: linear-gradient(
+        to right,
+        #ad1328 0%,
+        #7a59ff 50%,
+        #4a2a66 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 
   .image {
