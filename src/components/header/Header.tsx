@@ -16,7 +16,11 @@ export default function Header() {
     <>
       <div className={cls.navigation}>
         <Link href="/" className={cls.logo}>
-          Janet
+          <img
+            src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/110/8414017110_8e9062f0-6eb2-4950-be7c-f82071b345c6.png?cb=1686784983"
+            alt="janetta logo"
+            width={150}
+          />
         </Link>
         <div className={cls.links}>
           {links.map((link, i) => (
