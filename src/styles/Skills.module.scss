@@ -7,14 +7,11 @@
   align-items: center;
 
   padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0)
-  );
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 10px 42px 0 rgba(171, 165, 165, 0.37);
+
+  background-color: #000000;
+
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 13rem;
 
   h1 {
     background: #ad1328;
@@ -30,7 +27,7 @@
   }
 
   .skills {
-    max-width: 800px;
+    max-width: 900px;
 
     display: flex;
     flex-wrap: wrap;
@@ -38,22 +35,18 @@
 
     span {
       min-width: 150px;
-      background-image: linear-gradient(
-        to left bottom,
-        #000000,
-        #1b1b1b,
-        #2f2f2f,
-        #444444,
-        #5b5b5b,
-        #5c5c5c,
-        #5c5c5c,
-        #5d5d5d,
-        #474747,
-        #333232,
-        #201f1f,
-        #0a0908
-      );
+
+      border: 1px solid white;
+      border-radius: 2rem;
       padding: 1rem;
+      text-align: center;
+
+      transition: box-shadow 0.3s ease-in-out;
+
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px 5px rgba(181, 163, 163, 0.8);
+      }
     }
   }
 }
